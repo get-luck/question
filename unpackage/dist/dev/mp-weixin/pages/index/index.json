@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "答题主页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "my-bulletin": "/components/my-bulletin/my-bulletin",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

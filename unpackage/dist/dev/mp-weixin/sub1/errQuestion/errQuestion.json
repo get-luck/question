@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "unik-modal": "/components/unik-modal/unik-modal"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="bulletin-box"><block wx:for="{{activeList}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view class="bulletin-item"><text class="title">{{item.title}}</text><view class="content">{{''+item.content+''}}</view></view></block></view></view>

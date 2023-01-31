@@ -1,0 +1,72 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/classify/classify",
+          "pathName": "sub1/classify/classify",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/bulletin/bulletin",
+          "pathName": "sub1/bulletin/bulletin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/personal/personal",
+          "pathName": "sub1/personal/personal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/wrong/wrong",
+          "pathName": "pages/wrong/wrong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/questions/questions",
+          "pathName": "sub1/questions/questions",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/errQuestion/errQuestion",
+          "pathName": "sub1/errQuestion/errQuestion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "sub1/result/result",
+          "pathName": "sub1/result/result",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "sub1/collection/collection",
+          "pathName": "sub1/collection/collection",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

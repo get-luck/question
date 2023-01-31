@@ -1,0 +1,124 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "答题主页",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/wrong/wrong",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"subPackages": [{
+		"root": "sub1",
+		"pages": [{
+				"path": "questions/questions",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "testQuestion/testQuestion",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "classify/classify",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "bulletin/bulletin",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "about/about",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "personal/personal",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "collection/collection",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "result/result",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "errQuestion/errQuestion",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		    
+            ]
+	}],
+	"tabBar": {
+		"list": [{
+				"text": "主页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/answer.png",
+				"selectedIconPath": "static/answer-select.png"
+			},
+			{
+				"text": "错题",
+				"pagePath": "pages/wrong/wrong",
+				"iconPath": "./static/wrong.png",
+				"selectedIconPath": "static/wrong-select.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "./static/my.png",
+				"selectedIconPath": "static/my-select.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "答题系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+
+	}
+}
